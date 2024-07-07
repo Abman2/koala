@@ -9,7 +9,7 @@ import keyboard from '../assets/Security/secure-keyboard.svg';
 import worldClass from '../assets/Security/world-class.svg';
 export const SecurityComponent = () => {
      return (
-          <main className='text-white mx-auto lg:max-w-5xl max-w-md  '>
+          <main className='text-white mx-auto lg:max-w-5xl md:max-w-md max-w-xs '>
                <section className='text-center my-20 lg:mt-40 space-y-7'>
                     <h1 className='text-5xl font-black'>Security</h1>
                     <p className='font-semibold text-xl lg:text-2xl px-3 tracking-wide lg:px-52 '>
