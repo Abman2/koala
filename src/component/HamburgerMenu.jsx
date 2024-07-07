@@ -1,12 +1,14 @@
 import { Link, NavLink } from "react-router-dom";
 
+
 export const HamburgerMenu = () => {
+
   return (
     <ul
-      className=' md:hidden z-10 fixed top-[90px] pt-5 left-0 mx-auto h-full w-full border-t-2 flex flex-col font-semibold text-[17px] space-y-7 text-center'
+      className=' md:hidden z-10 fixed top-[90px] pt-5 left-0 mx-auto h-full w-full border-t-2 flex flex-col font-semibold text-[17px] space-y-7  text-center'
       style={{ backgroundColor: 'rgb(23, 24, 38)' }}>
       <li>
-        <NavLink to='security' className='hover:text-pink-600'>
+        <NavLink to='security' className='hover:text-pink-600' >
           Security
         </NavLink>
       </li>
