@@ -23,7 +23,7 @@ export const DownloadApp = () => {
                          </p>
                     </div>
                </article>
-               <article className=' grid gap-10 text-white max-w-md md:max-w-6xl mx-auto xl:max-w-7xl'>
+               <article className=' grid gap-10 text-white max-w-sm md:max-w-5xl mx-auto xl:max-w-7xl'>
                     <aside className='border border-slate-800 space-y-5 lg:space-y-0 rounded-3xl flex flex-col lg:flex-row   bg-slate-900 items-center justify-center p-10 px-14'>
                          <div className=''>
                               <div className='flex space-x-2 mb-2'>
