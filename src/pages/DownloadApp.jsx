@@ -56,13 +56,13 @@ export const DownloadApp = () => {
                               </p>
                          </div>
                          <div className=' flex space-x-2 lg:space-x-5  items-center justify-center w-full '>
-                              <p className='border rounded-xl border-slate-600 max-h-16 flex justify-center px-7 lg:px-12 py-4 '>
+                              <p className='border rounded-xl border-slate-600 max-h-16 flex justify-center px-3 md:x-7 lg:px-12 py-4 '>
                                    <img src={chrome} alt='' />
                               </p>
-                              <p className='border rounded-xl border-slate-600 max-h-16 flex justify-center px-7 lg:px-12 py-4 max-w-56'>
+                              <p className='border rounded-xl border-slate-600 max-h-16 flex justify-center md:px-7 px-3 lg:px-12 py-4 max-w-56'>
                                    <img src={edge} alt='' />
                               </p>
-                              <p className='border rounded-xl border-slate-600 max-h-16 flex justify-center px-7 lg:px-12 py-4 max-w-56'>
+                              <p className='border rounded-xl border-slate-600 max-h-16 flex justify-center md:px-7 px-3 lg:px-12 py-4 max-w-56'>
                                    <img src={brave} alt='' />
                               </p>
                          </div>
