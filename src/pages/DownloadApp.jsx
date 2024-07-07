@@ -9,7 +9,7 @@ import edge from '../assets/Download/edge.png';
 import brave from '../assets/Download/brave.png';
 export const DownloadApp = () => {
      return (
-          <section className='md:max-w-md max-w-xs  lg:max-w-7xl mx-auto lg:mb-28 mb-10'>
+          <section className='max-w-md md:max-w-7xl mx-auto lg:mb-28 mb-10'>
                <article className='text-white text-center py-16   flex flex-col items-center justify-center'>
                     <div className='mx-auto'>
                          <img src={koala} alt='' className=' mx-auto max-h-96' />
@@ -23,7 +23,7 @@ export const DownloadApp = () => {
                          </p>
                     </div>
                </article>
-               <article className=' grid gap-10 text-white max-w-sm md:max-w-5xl mx-auto xl:max-w-7xl'>
+               <article className=' grid gap-10 text-white max-w-sm md:max-w-6xl mx-auto xl:max-w-7xl'>
                     <aside className='border border-slate-800 space-y-5 lg:space-y-0 rounded-3xl flex flex-col lg:flex-row   bg-slate-900 items-center justify-center p-10 px-14'>
                          <div className=''>
                               <div className='flex space-x-2 mb-2'>
