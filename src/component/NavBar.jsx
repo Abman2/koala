@@ -49,7 +49,7 @@ export const NavBar = () => {
       <div className='md:hidden'>
         <img src={hamburger} alt='hamburger' className='h hover:bg-pink-700' onClick={toggleMenu} />
       </div>
-      {showMenu && <HamburgerMenu />}
+      {showMenu && <HamburgerMenu setIsMenuOpen = {setShowMenu}/>}
     </nav>
   </div>
   );
